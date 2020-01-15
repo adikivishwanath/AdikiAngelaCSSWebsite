@@ -1,0 +1,191 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  color: #004445;
+  display: inline-block;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;  // 16px = 100% = 1em
+  font-weight: normal;
+  //width: 10%;
+  //margin: 0 auto 0 auto;  // For horizontal or vertical centering, here, "auto" is a predefined value and here, horizontal centering is done
+}
+
+p {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 20px;
+  color: #40514E;
+  line-height: 2;
+
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #004445;
+  font-size: 2.5rem;
+  margin-top: 0px;
+  font-weight: normal;
+  //line-height: 4;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  color: #b21f66;
+}
+
+.topContainer {
+  background-color: #09c6ab;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middleContainer {
+
+}
+
+.bottom-container {
+   background-color: #7e94bf;
+   margin-top: 60px;
+   padding: 50px 0 20px;
+}
+
+.footer-link {
+  color: #000249;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 10px;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #f8f3d4;
+}
+
+.footer-credits {
+  color: #f8f3d4;
+  font-size: 0.75rem;
+  padding: 20px 0;
+
+}
+
+.Develop {
+  text-decoration: underline;
+  font-size: 2.5rem;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.intro {
+  width: 40%;
+  margin: auto;
+}
+
+.android-image {
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin-right: 30px;
+}
+
+.web-dev-img {
+  width: 200px;
+  height: 200px;
+  float: right;  // Float this image to the right of the text and align the text around it.
+  margin-left: 50px;
+}
+
+.developer-image {
+  height: 200px;
+  width: 200px;
+  margin-top: 50px;
+}
+
+.contact-img {
+  height: 200px;
+  width: 200px;
+}
+
+a {
+  color: #11999E;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  //line-height: 2;
+}
+
+.My_Skills {
+  margin-top: 50px;
+}
+
+.Android-Dev-Description {
+    clear: left; // clear the margin to the right of the selected text
+}
+
+.web-dev-description {
+  clear: right;
+}
+
+.contact-message {
+  width: 30%;
+  margin: 40px auto 60px;
+}
+
+hr {
+  /* border-style: dotted;
+  border-top-width: 10px;
+  border-left-width: 0;
+  border-right-width: 0;
+  width: 20%;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  color: #4f98ca; */
+
+  border: dotted #22213d 6px;
+  border-bottom: none;
+  width: 5%;
+  margin: 100px auto ;
+}
+
+
+.btn {
+  font-family: arial;
+  color: #FFFFFF !important;
+  font-size: 14px;
+  text-shadow: 1px 1px 0px #7CACDE;
+  box-shadow: 1px 1px 1px #BEE2F9;
+  padding: 10px 25px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  background: #63B8EE;
+  background: linear-gradient(top,  #11CDD4,  #11999E);
+  background: -ms-linear-gradient(top,  #11CDD4,  #11999E);
+  background: -webkit-gradient(linear, left top, left bottom, from(#11CDD4), to(#11999E));
+  background: -moz-linear-gradient(top,  #11CDD4,  #11999E);
+  text-decoration: none;
+}
+.btn:hover {
+  color: #FFFFFF !important;
+  background: #468CCF;
+  background: linear-gradient(top,  #30E3CB,  #2BC4AD);
+  background: -ms-linear-gradient(top,  #30E3CB,  #2BC4AD);
+  background: -webkit-gradient(linear, left top, left bottom, from(#30E3CB), to(#2BC4AD));
+  background: -moz-linear-gradient(top,  #30E3CB,  #2BC4AD);
+}
